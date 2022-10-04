@@ -38,7 +38,7 @@ let package = Package(
 
 ## Example
 
-![Simulator Screen Recording - iPhone 12 mini - 2021-09-19 at 18 07 20](https://user-images.githubusercontent.com/5156285/133944541-ff4d1e45-f592-400e-b2e9-7a564f785626.gif)
+![SideMenu](https://user-images.githubusercontent.com/5156285/193725724-56ccfbc1-7cf4-406b-b604-667307234cea.gif)
 
 ## License
 
