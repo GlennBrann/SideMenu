@@ -40,6 +40,8 @@ let package = Package(
 
 ![SideMenu](https://user-images.githubusercontent.com/5156285/193725724-56ccfbc1-7cf4-406b-b604-667307234cea.gif)
 
+![SideMenu2](https://user-images.githubusercontent.com/5156285/193726712-801773e6-5bb0-4aa5-85d2-344dca1770c9.gif)
+
 ```
 let allMenuItems = [
     MenuItem(id: "create", title: "Create", image: "textformat", selected: false),
