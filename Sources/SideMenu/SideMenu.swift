@@ -121,7 +121,7 @@ public struct SideMenu: View {
 // MARK: - Menu modifier extension
 
 extension View {
-    public func addInstaMenu(
+    public func addSideMenu(
         menuItems: [MenuItem],
         closedDisplayCount: Int,
         selectedItem: Binding<MenuItem?>,
