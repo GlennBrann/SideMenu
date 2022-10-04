@@ -58,7 +58,7 @@ struct ContentView: View {
     
     var body: some View {
         Color.gray.opacity(0.5).edgesIgnoringSafeArea(.all)
-            .addInstaMenu(
+            .addSideMenu(
                 menuItems: allMenuItems,
                 closedDisplayCount: 3,
                 selectedItem: $selectedItem,
