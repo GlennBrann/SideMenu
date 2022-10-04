@@ -40,6 +40,32 @@ let package = Package(
 
 ![SideMenu](https://user-images.githubusercontent.com/5156285/193725724-56ccfbc1-7cf4-406b-b604-667307234cea.gif)
 
+```
+let allMenuItems = [
+    MenuItem(id: "create", title: "Create", image: "textformat", selected: false),
+    MenuItem(id: "boomerang", title: "Boomerang", image: "infinity", selected: false),
+    MenuItem(id: "layout", title: "Layout", image: "square.split.bottomrightquarter.fill", selected: false),
+    MenuItem(id: "handsfree", title: "Hands-free", image: "stop.circle", selected: false),
+    MenuItem(id: "dual", title: "Dual", image: "camera.shutter.button", selected: false)
+]
+
+struct ContentView: View {
+    
+    @State private var selectedItem: MenuItem?
+    @State private var menuAlignment: HorizontalAlignment = .leading
+    
+    var body: some View {
+        Color.gray.opacity(0.5).edgesIgnoringSafeArea(.all)
+            .addInstaMenu(
+                menuItems: allMenuItems,
+                closedDisplayCount: 3,
+                selectedItem: $selectedItem,
+                menuAlignment: $menuAlignment
+            )
+    }
+}
+```
+
 ## License
 
 SideMenu is available under the BSD 3-Clause. See the LICENSE file for more info.
